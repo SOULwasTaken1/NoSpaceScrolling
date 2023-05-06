@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "No Space scroll",
     "description": "disable scrolling with spacebar for youtube",
     "version": "1.0",
@@ -8,14 +8,7 @@
         "48": "/images/icon48.png",
         "128": "/images/icon128.png"
     },
-    "page_action": {
-        "default_icon": {
-            "16": "/images/icon16.png",
-            "48": "/images/icon48.png",
-            "128": "/images/icon128.png"
 
-        }
-    },
     "content_scripts": [{
         "matches": ["https://www.youtube.com/*"],
         "js": ["script.js"]
