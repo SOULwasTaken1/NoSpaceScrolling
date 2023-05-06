@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "No Space scroll",
-    "description": "Disable scrolling with spacebar for youtube",
+    "description": "Disable scrolling with spacebar for youtube, Made by SOULwasTaken1; Source Code: https://github.com/SOULwasTaken1/NoSpaceScrolling",
     "version": "1.0",
     "icons": {
         "16": "/images/icon16.png",
