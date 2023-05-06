@@ -1,7 +1,7 @@
 # No Space Scroll
-#### Why did i make this?
+### Why did i make this?
 I found it annoying when im watching youtube shorts and try to pause using spacebar but it scrolls to the next video.
-#### How to use this?
+### How to use this?
 ##### Step 1:
 * Go to Extentions (Im using opera GX but any chromium based browsers would work)
 * Chromium based browsers are: Chrome, Firefox, Edge, Brave, opera etc.
