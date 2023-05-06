@@ -20,3 +20,33 @@ I found it annoying when im watching youtube shorts and try to pause using space
 
 ![Alt text](/images/step3.png?raw=true "Optional Title")
 
+### Extra
+* You can do it for other sites too. 
+* In manifest.json file
+```js
+ . . .
+    },
+    "content_scripts": [{
+        "matches": ["https://www.youtube.com/*"], // add more websites here and separate them with comma //
+        "js": ["script.js"]
+    }]
+
+}
+```
+* Why is there a *?
+* This * makes it so There could be anything in the star's place and it will still work
+* example:
+```js
+    },
+    "content_scripts": [{
+        "matches": [
+        "https://www.youtube.com/*",
+        "https://www.website.org/something/*",
+        "https://www.example.com/*"
+        ],
+        "js": ["script.js"]
+    }]
+
+}
+
+```
